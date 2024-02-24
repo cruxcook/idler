@@ -7,6 +7,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Idler",
   description: "Chat App",
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/images/logo.webp",
+        href: "/images/logo.webp",
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/images/logo.webp",
+        href: "/images/logo.webp",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
